@@ -12,17 +12,32 @@
 // let age = 30;
 // age = 31;
 // const birthYear = 1991;
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
-console.log(ageJonas, ageSarah);
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
-const firstName = "Jonas";
-const lastName = "Schmedtmann";
-console.log(firstName + " " + lastName);
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(ageJonas, ageSarah);
+// console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// const firstName = "Jonas";
+// const lastName = "Schmedtmann";
+// console.log(firstName + " " + lastName);
 
-let x, y;
-x = y = 25 - 10 - 5;
-console.log(x, y);
-const averageAge = ageJonas + ageSarah / 2;
-console.log(ageJonas, ageSarah, averageAge);
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
+// const averageAge = ageJonas + ageSarah / 2;
+// console.log(ageJonas, ageSarah, averageAge);
+const firstName = "Jonas";
+const job = "teacher";
+const brithYear = 1991;
+const year = 2037;
+const Jonas =
+  " I 'm " +
+  firstName +
+  ", a " +
+  (year - brithYear) +
+  " " +
+  "years old" +
+  " " +
+  job +
+  "!";
+console.log(Jonas);
