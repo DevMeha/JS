@@ -26,18 +26,31 @@
 // console.log(x, y);
 // const averageAge = ageJonas + ageSarah / 2;
 // console.log(ageJonas, ageSarah, averageAge);
-const firstName = "Jonas";
-const job = "teacher";
-const brithYear = 1991;
-const year = 2037;
-const Jonas =
-  " I 'm " +
-  firstName +
-  ", a " +
-  (year - brithYear) +
-  " " +
-  "years old" +
-  " " +
-  job +
-  "!";
-console.log(Jonas);
+
+// teskt
+
+// const firstName = "Jonas";
+// const job = "teacher";
+// const brithYear = 1991;
+// const year = 2037;
+// const Jonas =
+//   " I 'm " +
+//   firstName +
+//   ", a " +
+//   (year - brithYear) +
+//   " " +
+//   "years old" +
+//   " " +
+//   job +
+//   "!";
+// console.log(Jonas);
+
+// downloading driving license information
+const age = 14;
+
+if (age >= 18) {
+  console.log(`Drive licence good`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(yearsLeft + ` years left `);
+}
