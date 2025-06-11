@@ -95,14 +95,34 @@
 // TEST
 
 /* Write your code below. Good luck! 🙂 */
-const scoreDeophins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
+// const scoreDeophins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
 
-console.log("scoreDeophins:", scoreDeophins);
-console.log("scoreKoalas:", scoreKoalas);
+// console.log("scoreDeophins:", scoreDeophins);
+// console.log("scoreKoalas:", scoreKoalas);
 
-if (scoreDeophins > scoreKoalas) {
-  console.log("Dolphins win the trophy");
-} else {
-  console.log("Koalas win the trophy");
+// if (scoreDeophins > scoreKoalas) {
+//   console.log("Dolphins win the trophy");
+// } else {
+//   console.log("Koalas win the trophy");
+// }
+const day = "monday";
+switch (day) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("GO to coding meetup");
+    break;
+  case "thuesday":
+    console.log("Prepare theory viedos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("write code examples");
+    break;
+  case "friday":
+    console.log("Record viedos");
+    break;
+  case "saturady":
+  case "sunday":
+    console.log("Enjoy the weekend");
 }
