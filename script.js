@@ -72,23 +72,37 @@
 
 // LOGICAL OPERATORS
 
-const hasDriversLicence = true; //A
-const hasGoodVision = true; //B
+// const hasDriversLicence = true; //A
+// const hasGoodVision = true; //B
 
-console.log(hasDriversLicence && hasGoodVision);
-console.log(hasDriversLicence || hasGoodVision);
-console.log(!hasDriversLicence);
+// console.log(hasDriversLicence && hasGoodVision);
+// console.log(hasDriversLicence || hasGoodVision);
+// console.log(!hasDriversLicence);
+
+// // if (hasDriversLicence && hasGoodVision) {
+// //   console.log("CAN DRIVE");
+// // } else {
+// //   console.log("cant drive");
+// // }
+// const isTired = true;
+// console.log(hasDriversLicence && hasGoodVision && !isTired);
 
 // if (hasDriversLicence && hasGoodVision) {
 //   console.log("CAN DRIVE");
 // } else {
 //   console.log("cant drive");
 // }
-const isTired = true;
-console.log(hasDriversLicence && hasGoodVision && !isTired);
+// TEST
 
-if (hasDriversLicence && hasGoodVision) {
-  console.log("CAN DRIVE");
+/* Write your code below. Good luck! 🙂 */
+const scoreDeophins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+console.log("scoreDeophins:", scoreDeophins);
+console.log("scoreKoalas:", scoreKoalas);
+
+if (scoreDeophins > scoreKoalas) {
+  console.log("Dolphins win the trophy");
 } else {
-  console.log("cant drive");
+  console.log("Koalas win the trophy");
 }
