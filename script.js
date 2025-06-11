@@ -46,11 +46,26 @@
 // console.log(Jonas);
 
 // downloading driving license information
-const age = 14;
 
-if (age >= 18) {
-  console.log(`Drive licence good`);
+// const age = 14;
+
+// if (age >= 18) {
+//   console.log(`Drive licence good`);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(yearsLeft + ` years l
+
+// Equality operators == vs ===
+
+// const age = "18";
+// if (age === 18) console.log("you just became an adult (strick) ");
+// if (age == 18) console.log("you just became an adult (loose) ");
+const favourite = Number(prompt("What's your favourite number?"));
+if (favourite === 23) {
+  console.log("23 correct");
+} else if (favourite === 7) {
+  console.log("7 is to good number");
 } else {
-  const yearsLeft = 18 - age;
-  console.log(yearsLeft + ` years left `);
+  console.log("wrong number");
 }
+if (favourite !== 23) console.log("musi byc 23");
