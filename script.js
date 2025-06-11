@@ -60,12 +60,35 @@
 // const age = "18";
 // if (age === 18) console.log("you just became an adult (strick) ");
 // if (age == 18) console.log("you just became an adult (loose) ");
-const favourite = Number(prompt("What's your favourite number?"));
-if (favourite === 23) {
-  console.log("23 correct");
-} else if (favourite === 7) {
-  console.log("7 is to good number");
+// const favourite = Number(prompt("What's your favourite number?"));
+// if (favourite === 23) {
+//   console.log("23 correct");
+// } else if (favourite === 7) {
+//   console.log("7 is to good number");
+// } else {
+//   console.log("wrong number");
+// }
+// if (favourite !== 23) console.log("musi byc 23");
+
+// LOGICAL OPERATORS
+
+const hasDriversLicence = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+// if (hasDriversLicence && hasGoodVision) {
+//   console.log("CAN DRIVE");
+// } else {
+//   console.log("cant drive");
+// }
+const isTired = true;
+console.log(hasDriversLicence && hasGoodVision && !isTired);
+
+if (hasDriversLicence && hasGoodVision) {
+  console.log("CAN DRIVE");
 } else {
-  console.log("wrong number");
+  console.log("cant drive");
 }
-if (favourite !== 23) console.log("musi byc 23");
