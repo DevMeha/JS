@@ -106,23 +106,40 @@
 // } else {
 //   console.log("Koalas win the trophy");
 // }
-const day = "monday";
-switch (day) {
-  case "monday":
-    console.log("Plan course structure");
-    console.log("GO to coding meetup");
-    break;
-  case "thuesday":
-    console.log("Prepare theory viedos");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("write code examples");
-    break;
-  case "friday":
-    console.log("Record viedos");
-    break;
-  case "saturady":
-  case "sunday":
-    console.log("Enjoy the weekend");
-}
+// const day = "monday";
+// switch (day) {
+//   case "monday":
+//     console.log("Plan course structure");
+//     console.log("GO to coding meetup");
+//     break;
+//   case "thuesday":
+//     console.log("Prepare theory viedos");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("write code examples");
+//     break;
+//   case "friday":
+//     console.log("Record viedos");
+//     break;
+//   case "saturady":
+//   case "sunday":
+//     console.log("Enjoy the weekend");
+// }
+
+// TERNARY
+
+const age = 23;
+age >= 18
+  ? console.log(" i like drink wine")
+  : console.log("I like to drink water");
+
+// TEST CREATE CALCULATE BILL AND TIP AND TOTAL TOTAL VALUE
+
+const bill = 275;
+
+let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+let total = bill + tip;
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${total}`
+);
